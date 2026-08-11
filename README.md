@@ -28,7 +28,7 @@ Compile the program with the following command:
 make
 ```
 
-Run the program with the following command:
+Start the game with the following command:
 ```bash
 ./rpg
 ```
