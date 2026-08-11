@@ -33,7 +33,7 @@ Run the program with the following command:
 ./rpg
 ```
 
-Have fun playing the game!
+Have fun exploring those dungeons and playing the game!
 
 ## ATTRIBUTION ©️
 - Undertale by Toby Fox - https://store.steampowered.com/app/391540/Undertale/
