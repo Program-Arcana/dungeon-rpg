@@ -56,7 +56,7 @@ int main(void) {
                                                     {"THE UNDEAD DUNGEON", false, false},
                                                     {"THE MYSTERY DUNGEON", false, false}
                                                  };
-    while (choice != "q") { // Until player saves and quits the game
+    while (choice != "q") { // Until player quits the game
         player.rest();
         print("THE HAVEN\n\nYou walk into a room with gray walls. On both sides of you are two black doors similar to the one you just walked through. In front of you is a shopkeeper's booth next to a mysterious white door.\n\nShopkeeper: \"Welcome, adventurer! Can I interest you in some wares before you venture through those dungeon doors?\"\n\n");
         for (int i = 0; i < dungeons.size(); ++i) {
@@ -65,7 +65,7 @@ int main(void) {
             else if (std::get<2>(dungeons[i]) == true) {std::cout << " (COMPLETE!)";}
             std::cout << std::endl;
         }
-        std::cout << "s - Go to Shop\ni - Open Inventory\nq - Save and Quit Game\n>>";
+        std::cout << "s - Go to Shop\ni - Open Inventory\nq - Quit Game\n>>";
         std::getline(std::cin, choice);
         if ((choice == "1") && (std::get<2>(dungeons[0]) == false)) { // Door #1
             std::vector<std::tuple<std::string, int, int, int>> enemies = {
@@ -242,6 +242,5 @@ int main(void) {
         }
         else if (choice == "i") {player.open_inventory();} // Open Inventory
     }
-    // Code to Save Game Goes Here
     return 0;
 }
