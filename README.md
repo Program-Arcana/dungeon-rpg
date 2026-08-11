@@ -33,6 +33,8 @@ Run the program with the following command:
 ./rpg
 ```
 
+Have fun playing the game!
+
 ## ATTRIBUTION ©️
 - Undertale by Toby Fox - https://store.steampowered.com/app/391540/Undertale/
 - Moonring by Fluttermind - https://store.steampowered.com/app/2373630/Moonring/
